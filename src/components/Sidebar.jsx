@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useClerk, useUser } from '@clerk/clerk-react'
 import { Eraser, FileText, Hash, Home, Icon, Image, LogOut, Scissors, SquarePen, Users } from 'lucide-react'
 import React from 'react'
