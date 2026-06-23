@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useAuth, useUser } from "@clerk/clerk-react";
 import React, { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
@@ -52,7 +53,6 @@ const Communities = () => {
   };
   useEffect(() => {
     if (user) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       fetchCreations();
     }
   }, [user]);

@@ -1,4 +1,5 @@
-/* eslint-disable react-hooks/set-state-in-effect */
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import CreationItem from "../components/CreationItem";
