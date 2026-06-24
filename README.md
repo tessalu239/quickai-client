@@ -42,18 +42,6 @@ src/
 ```
 
 
-Create a `.env` file in the `client/` directory:
-
-```env
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
-VITE_BASE_URL=http://localhost:3000
-```
-
-| Variable                      | Description                     |
-| ----------------------------- | ------------------------------- |
-| `VITE_CLERK_PUBLISHABLE_KEY`  | Clerk publishable key           |
-| `VITE_BASE_URL`               | Backend API base URL            |
-
 ## Getting Started
 
 ```bash
